@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HTTP"
+  DTS:DTSID="{5F6A145F-DD35-4D2F-8A98-B54D884FD01D}"
+  DTS:CreationName="ZS-HTTP">
+  <DTS:ObjectData>
+    <ConnectionManager
+      ConnectionString="Url=https://dinersdigital.atlassian.net/rest/api/2/search?startAt=0&amp;maxResults=50;CredentialType=Basic;UserName=patricio.espinosa@seneca-corp.com;Timeout=100000;SoapWssPasswordType=Notset;JwtCustomClaims=;RetainCookies=False;UseProxy=False;ProxyUrl=;UseProxyCreds=False;ProxyUserName=;DoNotUseDefaultProxy=False;UseClientCertificate=False;CertificatePath=;CertificateStorageType=CurrentUser;CertificateStoreName=My;CertificateThumbprint=;RetryMode=None;RetryCountMax=3;RetryWaitTimeMs=2000;RetryMultiplyWaitTime=False;RetryMessageList=;RetryStatusCodeList=;AuthScheme=Bearer;TokenAuthHeader=;TokenUrl=;TokenRequestData=;TokenRequestHeaders=Accept:*/*||Cache-Control:no-cache;TokenRequestMethod=;TokenRequestContentType=Default;TokenRequestIsMultiPart=False;TokenResponseContentFilter=;TokenResponseValueExtractMode=Body;TokenResponseCookie=;TokenResponseHeader=;TokenResponseContentType=None;TokenExpirationTimeInSeconds=3600;EnableRequestHashing=False;HashAlgorithm=sha256;HashSignatureFormat=;HashSignatureFormatForLogin=;ExtraHeaders=;ExtraHeadersForLogin=;HashTimestampFormat=;HashTreatSecretAsNonBase64=False;HashSignWithApiKey=False;RetainSameConnection=False">
+      <Password
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdRi/Rtu35U6FSVyYMVHb7wAAAAACAAAAAAAQZgAAAAEAACAAAADnMQTDBAzSBvSLDicQrF2Fl2l0MwJsHRgyn4W5n5OZ1gAAAAAOgAAAAAIAACAAAADuBGQdnA6RA7LOqyGZk6pD7MvD3tZBERBS7+mGPGAb4kAAAACeEOFCgw6XmNQGLasbh0GfX/eJrizlOhH0VryJFq6JpyUH8sS1QdFLqTnpqT0o6hKdFoEM6OmPug5E+AeYwHmXQAAAAFyZHEhsLkLzf95rfQSioKLXUNJD+NxvckXzYSYsDJpL0G2BuoAmdjRoPvLdVhQVE/gsNCXiBxCBAqtkKj77Yyk=</Password>
+    </ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

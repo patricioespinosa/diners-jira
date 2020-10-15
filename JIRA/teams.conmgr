@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="teams"
+  DTS:DTSID="{6C43F69F-AAED-461F-8267-D8483B1BB04D}"
+  DTS:CreationName="FILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:FileUsageType="1"
+      DTS:ConnectionString="D:\Workdir\Json\teams" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

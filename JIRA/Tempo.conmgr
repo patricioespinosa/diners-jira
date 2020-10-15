@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Tempo"
+  DTS:DTSID="{08B8EC84-FE77-4BDE-8B86-BA5E4FE51BAD}"
+  DTS:CreationName="ZS-HTTP">
+  <DTS:ObjectData>
+    <ConnectionManager
+      ConnectionString="Url=https://api.tempo.io/;CredentialType=Token;UserName=;Timeout=100000;SoapWssPasswordType=Notset;JwtCustomClaims=;RetainCookies=False;UseProxy=False;ProxyUrl=;UseProxyCreds=False;ProxyUserName=;DoNotUseDefaultProxy=False;UseClientCertificate=False;CertificatePath=;CertificateStorageType=CurrentUser;CertificateStoreName=My;CertificateThumbprint=;RetryMode=None;RetryCountMax=3;RetryWaitTimeMs=2000;RetryMultiplyWaitTime=False;RetryMessageList=;RetryStatusCodeList=;AuthScheme=Bearer;TokenAuthHeader=Authorization;TokenUrl=;TokenRequestData=;TokenRequestHeaders=Accept:*/*||Cache-Control:no-cache;TokenRequestMethod=GET;TokenRequestContentType=Default;TokenRequestIsMultiPart=False;TokenResponseContentFilter=;TokenResponseValueExtractMode=Body;TokenResponseCookie=;TokenResponseHeader=;TokenResponseContentType=None;TokenExpirationTimeInSeconds=3600;EnableRequestHashing=False;HashAlgorithm=sha256;HashSignatureFormat=;HashSignatureFormatForLogin=;ExtraHeaders=;ExtraHeadersForLogin=;HashTimestampFormat=;HashTreatSecretAsNonBase64=False;HashSignWithApiKey=False;RetainSameConnection=False">
+      <Password
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdRi/Rtu35U6FSVyYMVHb7wAAAAACAAAAAAAQZgAAAAEAACAAAABlae7bAcFC4RW9SBcYJVjz1MTRI0GVRm61MInDV02RdgAAAAAOgAAAAAIAACAAAADp8Yq6xSnm+lADDhOZsSOXl4GuVDCqNkJuYqc8pOxSoFAAAACVR+7cPhiudSvQpMssDIRnDP0atf3gmUnaTr5tS/KPEPHYZ464HIhY95W1xhuVnmPh0FbtYsU+46TdDc2nlwpfXdvMjUQrddFP+rGnY+5JhkAAAAAcvzZtYaCDfRT7Nqlx4wq3II5JuAVZtGAjr1wzjFB/wCNDFAf5NUOZwSFKLPFLCFWJACsS1lCmDMC33+JvnHXE</Password>
+    </ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
