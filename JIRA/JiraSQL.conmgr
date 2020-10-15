@@ -5,6 +5,10 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=.;Initial Catalog=Jira;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=.;User ID=dwadmin;Initial Catalog=Jira;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdRi/Rtu35U6FSVyYMVHb7wAAAAACAAAAAAAQZgAAAAEAACAAAADsVveri+9huBGIJckPnmlHC+YzkJegFJUoxiwnNAWK+gAAAAAOgAAAAAIAACAAAABgoLggoft2CaHDl2+FbfZUO8NpJz6J+7HFVR+WLEn8d4AAAACxkZ3+nmubmJTxunOgzNAi7m4O32IC1gRhKSvNe9A+WTp/u45XWfThYikv5X3N4ilv40OS6oxaVUUupLxidZl5g0fW/iJhNkXFyUJzH0lyHeO2tWHwEEUAlnIvQV+tuFECp37RySfmluy6YEmrUlJzgiyDZ+b6tWyRhrhV2VTa+0AAAADu2qhFnDNYpMUMHqsUeXezse8Jqm8mH46o/MHjSo85pyknBU2Z+RBNsK+r51IoeS+Kkx9n+8qb4/EC8LqBv4ta</DTS:Password>
+    </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

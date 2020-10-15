@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">EC2AMAZ-C35MAKQ</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdRi/Rtu35U6FSVyYMVHb7wAAAAACAAAAAAAQZgAAAAEAACAAAAC7gnz2za0DwqQJfkCvHdUgTwfJpIQJHUPx3pdh6ytx9gAAAAAOgAAAAAIAACAAAAAEd0voYrQ+rVD1tjs2+eJFdeG4JlM0tjdvnFZW95CBzZAAAAAqmGrrG2lJQEDbmNhaFkR9pz4leSFvTOESLpsslGLWrkXt3uYliQcgXead/zbtLSGkQo7BDhNpFkSp1dvDnjNacq9SRGwFnTHnnKCBf3Eh7wMFkBsw3vELVu1mpsU6v9BkvR4xlMKfUN6Ydi5W5frB9tpoJ73gBpElZaValIlM1Wz7uRJYAoMXnc4KMqyyV8JAAAAAgAkU4Wu8/UPchsASZ29OIqF582P9lEW8iRqebgs9FNRnHJvRem/Af8J0tZlmXgf94SSsGV0R7yWWAtOtCiLfXA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdRi/Rtu35U6FSVyYMVHb7wAAAAACAAAAAAAQZgAAAAEAACAAAAB6DHXEg7iZ3W6Bm0HwkYawKPkow+LjpO99EUyAkmjp7gAAAAAOgAAAAAIAACAAAADTTtdW8Bltumy4pofbMNVNf11joPAk8ASwAkpZzJrCppAAAACgBXyYDW1pjwjB9gaX/89Jq7nEmUxo1M0X/4T2Yz204G813Zg/3m49tuf74hxHEPRCwZqnZef4fEfusQqIZ3WIZic9f5NxF6cSS0Q4x4yF0wIqBltq2exBOKcFsq/S0bH+DtjqG4x4Fh/1P0lazqjezOOB7SFc6hBnIVJnbfODmPhivAAk0K5c7zOOJuKzTgFAAAAAFLIeBHwKh9CU6NkRHpVbGuRIU+42KioUxjrR45j6/KM6+LVIAAthD+fgTzOrN1lyh1Gjl7nBWIlB/gxd7cBufw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -34,6 +34,7 @@
           <SSIS:Package SSIS:Name="Jira_Issues_Assignee_DSA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="DSA_Issues_DIM_Proyecto.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="CARGA_ETL.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Jira_Issues_IssueType_DSA.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="JiraIssues.conmgr" />
@@ -760,7 +761,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=Jira;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=.;User ID=dwadmin;Initial Catalog=Jira;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -849,6 +850,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">dwadmin</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -2426,6 +2428,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{A9415A97-6A9E-4701-82E1-F17447D533C3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Jira_Issues_IssueType_DSA.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{C8E59080-20B6-44D3-A1F5-97B6412FFF60}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Jira_Issues_IssueType_DSA</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">67</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F95E9BA3-35E0-4E48-A666-3FCB2CE06410}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
